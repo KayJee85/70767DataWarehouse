@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{B5EFF902-CFDE-41EE-A69E-5D9F167EE64C}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg02_TestLoad1FileParam"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{F968F78E-3813-440D-A06A-32C85A9D143A}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{1520819D-94C9-4FEC-A8D2-834873C13EA7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\M620.csv">
+          DTS:ConnectionString="D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\M620.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -128,7 +128,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CurrentFilePath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\M620.csv</DTS:VariableValue>
+        DTS:DataType="8">D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\M620.csv</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -488,7 +488,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -729,13 +729,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\DFTSchool\Flat File Source"
-          TopLeft="119,47" />
-        <NodeLayout
           Size="171,42"
           Id="Package\DFTSchool\OLE DB Destination"
           TopLeft="261,170" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\DFTSchool\Flat File Source"
+          TopLeft="119,47" />
         <EdgeLayout
           Id="Package\DFTSchool.Paths[Flat File Source Output]"
           TopLeft="194.5,89">

@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{7F08702A-04F6-451A-B71C-ADB9D4250E9B}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg02_ForLoop"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{0F44B05A-E0A6-4665-8872-CADE79019292}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{863CBD46-B3AA-4D67-BC77-CB0D92EA5A0D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

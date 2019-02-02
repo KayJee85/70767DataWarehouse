@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{682E3773-08F1-4FA2-808B-03AB443F1448}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg04_TestLoadManyFiles"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{FFA092A2-101D-4ECE-AF22-732608FB4553}">
+  DTS:VersionBuild="37"
+  DTS:VersionGUID="{40AFEE5C-0DE6-4764-A7BA-9208D492CCFD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\">
+          DTS:ConnectionString="D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -127,7 +127,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CurrentFilePath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\</DTS:VariableValue>
+        DTS:DataType="8">D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -146,7 +146,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="FolderPath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\</DTS:VariableValue>
+        DTS:DataType="8">D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -167,7 +167,7 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka\" />
+              Folder="D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka\" />
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty
@@ -519,7 +519,7 @@
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -751,7 +751,7 @@
           PanelSize="322,208"
           Size="322,251"
           Id="Package\Foreach Loop Container"
-          TopLeft="161,96" />
+          TopLeft="161,95" />
       </GraphLayout>
     </LayoutInfo>
   </Package>

@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{3E032049-5B22-4404-8A1F-D1559DFB810F}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg01_Reload1Yr"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{95322DF2-EAAB-428E-8E88-08595EC62956}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{247D254E-7558-4BE7-88B3-081FDCAB57F5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -26,7 +26,17 @@
         DTS:Name="ParameterValue">2011</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
-  <DTS:Variables />
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{05159AD1-DEEF-4980-A7D8-C2D6E2F3C31B}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Variable">
+      <DTS:VariableValue
+        DTS:DataType="8">2012</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\DFT Reload"
@@ -90,7 +100,7 @@ WHERE YEAR([OrderDate]) = ?</property>
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"Parameter0:Input",{CA7DA16E-F5EE-43E2-8C6C-550C4139CA19};</property>
+                  name="ParameterMapping">"Parameter0:Input",{CA7DA16E-F5EE-43E2-8C6C-550C4139CA19};"Parameter1:Input",{05159AD1-DEEF-4980-A7D8-C2D6E2F3C31B};</property>
               </properties>
               <connections>
                 <connection

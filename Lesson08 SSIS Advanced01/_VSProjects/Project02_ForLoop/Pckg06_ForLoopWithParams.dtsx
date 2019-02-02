@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{D50C1811-4F48-4381-93E0-C29F860F5DCC}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg06_ForLoopWithParams"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{C2EE91D1-D4D1-4709-AE5F-7163960105F2}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{4555453B-716C-475B-945E-90E15A5BC962}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -23,7 +23,7 @@
       DTS:ObjectName="StartDate">
       <DTS:Property
         DTS:DataType="3"
-        DTS:Name="ParameterValue">2009</DTS:Property>
+        DTS:Name="ParameterValue">2012</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -107,7 +107,7 @@
           PanelSize="261,159"
           Size="261,202"
           Id="Package\For Loop Container"
-          TopLeft="107,57" />
+          TopLeft="238,153" />
       </GraphLayout>
     </LayoutInfo>
   </Package>

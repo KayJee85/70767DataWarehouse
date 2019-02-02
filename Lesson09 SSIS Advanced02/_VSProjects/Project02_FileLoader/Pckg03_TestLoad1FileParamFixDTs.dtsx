@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{5EE6169E-1235-4AC5-8605-A310228F9E64}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg03_TestLoad1FileParamFixDTs"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{2B57D001-F07F-4D6F-B362-2369122503B7}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{1FF393FD-E1C3-4602-8072-033C0C921C8B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -480,7 +480,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -694,9 +694,9 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\Users\tomek\Desktop\HD SSIS\Lesson09 SSIS Zaawasowany2\_dane\_raporty_szkolne_probka" />
+              Folder="D:\Users\kamil.grad\Desktop\70767DataWarehouse-master\70767DataWarehouse-master\Lesson09 SSIS Advanced02\_data\_raporty_szkolne_probka" />
             <FEFEProperty
-              FileSpec="*.csv" />
+              FileSpec="M*.csv" />
             <FEFEProperty
               FileNameRetrievalType="1" />
             <FEFEProperty
@@ -734,8 +734,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{5FC72374-F72D-428B-9F9C-73856E10B77B}"
-          DTS:ObjectName="{5FC72374-F72D-428B-9F9C-73856E10B77B}"
+          DTS:DTSID="{623CEA0A-7644-42A8-8217-CCFA30C03E81}"
+          DTS:ObjectName="{623CEA0A-7644-42A8-8217-CCFA30C03E81}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::FileName" />
       </DTS:ForEachVariableMappings>
@@ -754,6 +754,10 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
+          Size="129,42"
+          Id="Package\DFTSchool"
+          TopLeft="543,202" />
+        <NodeLayout
           Size="163,42"
           Id="Package\Foreach Loop Container\Execute SQL Task"
           TopLeft="79,69" />
@@ -764,10 +768,6 @@
           Size="322,251"
           Id="Package\Foreach Loop Container"
           TopLeft="161,96" />
-        <NodeLayout
-          Size="129,42"
-          Id="Package\DFTSchool"
-          TopLeft="543,202" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -777,13 +777,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\DFTSchool\Flat File Source"
-          TopLeft="127,61" />
-        <NodeLayout
           Size="171,42"
           Id="Package\DFTSchool\OLE DB Destination"
           TopLeft="331,172" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\DFTSchool\Flat File Source"
+          TopLeft="127,61" />
         <EdgeLayout
           Id="Package\DFTSchool.Paths[Flat File Source Output]"
           TopLeft="202.5,103">

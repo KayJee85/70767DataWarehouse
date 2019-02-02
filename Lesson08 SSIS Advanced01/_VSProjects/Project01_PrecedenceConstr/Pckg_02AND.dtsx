@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{A2B3536C-D85D-4F6D-8584-E08B1AF6BA3A}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg_02AND"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{AAA023B0-0C7E-412B-98F6-7CD5978FBC5B}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{80F9CB1A-0D47-45BF-B293-A04F8BDC87E5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -60,7 +60,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="WaitFor3"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -75,6 +75,7 @@
       DTS:CreationName=""
       DTS:DTSID="{5DD9BCEE-6D83-4EC9-AEFD-FE59EBA9F903}"
       DTS:From="Package\WaitFor1 3sek"
+      DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\WaitFor3" />
     <DTS:PrecedenceConstraint
@@ -82,6 +83,7 @@
       DTS:CreationName=""
       DTS:DTSID="{631F99C8-09C6-4B51-ADA2-5127B973D5E7}"
       DTS:From="Package\WaitFor2 10sek"
+      DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\WaitFor3" />
   </DTS:PrecedenceConstraints>

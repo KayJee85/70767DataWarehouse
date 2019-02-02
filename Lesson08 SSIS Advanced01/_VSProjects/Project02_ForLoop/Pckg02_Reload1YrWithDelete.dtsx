@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{2A5DB6E0-4B04-44BA-B4EF-A6F843E3DE1E}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg02_Reload1YrWithDelete"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{0EFF6C8B-F315-47B5-8274-97D5A987373F}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{4EE5356A-A6FD-4DFE-9E4C-F37201DE8848}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -23,7 +23,7 @@
       DTS:ObjectName="ReloadYear">
       <DTS:Property
         DTS:DataType="3"
-        DTS:Name="ParameterValue">2010</DTS:Property>
+        DTS:Name="ParameterValue">2011</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables />
@@ -91,7 +91,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT *
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT *
 FROM [dbo].[FactInternetSales]
 WHERE YEAR([OrderDate]) = ?</property>
                 <property
@@ -658,7 +658,7 @@ WHERE YEAR([OrderDate]) = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1081,21 +1081,21 @@ WHERE YEAR([OrderDate]) = ?</property>
         <NodeLayout
           Size="156,42"
           Id="Package\DFT Reload\Load 1year Data"
-          TopLeft="204,90" />
+          TopLeft="205,89" />
         <EdgeLayout
           Id="Package\DFT Reload.Paths[OLE DB Source Output]"
-          TopLeft="282.25,132">
+          TopLeft="282.75,131">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,74"
+              EndConnector="0,75"
               Start="0,0"
-              End="0,66.5">
+              End="0,67.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,66.5" />
+                    End="0,67.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
